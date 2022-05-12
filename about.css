@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+    background-color:#f4f4f4;
+    align-content: center;
+    min-height: 100vh;
+    
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+.image{
+    background: url("image/cov3.jpg")center/cover no-repeat;
+  
+
+}
+.content{
+    background:rgba(252, 251, 250, 0.897);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 6px;
+    opacity:0.9;
+
+}
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: rgb(97, 92, 92);
+    margin: 0 auto;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity:0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.links{
+    margin: 15px 0;
+    
+
+}
+.links li{
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+    list-style: none;
+    color: rgba(112, 128, 144, 0.767);
+}
+.links li a{
+    color: slategrey;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #06d6a0;
+   
+}
+.links li :hover a{
+    color: #06d6a0;
+    
+}
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding:15px 0;
+
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.fa {  
+    padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  }  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;
+      
+  }  
+
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+
+  @media(max-width:992px)
+  {
+      section{
+          grid-template-columns: 1fr;
+          width: 100%;
+      }
+      .image{
+          height:100vh;
+          display: none;
+      }
+      .content{
+          height: 100vh;
+      }
+      .content h2{
+          font-size: 20px;
+          margin-top: 50px;
+      }
+      .content span 
+      {
+          margin: 20px 0;
+      }
+      .content p
+      {
+          font-size: 12px;
+      }
+      .links li a{
+          font-size: 14px;
+      }
+      .links
+      {
+          margin: 5px 0;
+      }
+  }

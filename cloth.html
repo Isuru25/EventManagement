@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            body{
+                margin: 0;
+                background:#1E242A;
+            }
+            #main{
+                width:100%;
+                height: 100%;
+                position: absolute;
+                overflow: hidden;
+
+            }
+            #box1{
+                width: 530px;
+                height: 625px;
+                background-image:url('image/1_pblr2h.png');
+                position: absolute;
+                bottom: -100%;
+                left: 30%;
+                animation: anim 2s forwards, anim2 3s forwards 3s;
+            }
+            #box1:after{
+                content:'';
+                position: absolute;
+                width: 530px;
+                height: 625px;
+                background-image:url('image/2_meanqt.png');
+                left: 0px;
+                z-index: -1;
+
+
+            }
+
+            @keyframes anim{
+                from{
+                    bottom: -100%;
+                }
+                to{
+                    bottom: 0%;
+                }
+            }
+            @keyframes anim2 {
+                from{
+                    left:30%;
+                    width:530px;
+                }
+                to{
+                    width:0px;
+                    left:50%;
+                }
+            }
+            #box2
+            {
+                width: auto;
+                height: auto;
+                color: antiquewhite;
+                font-size: 9em;
+                line-height: 130px;
+                font-weight: 500px;
+                position: absolute;
+                top: 250px;
+                left:100px;
+                overflow: hidden;
+            }
+            #text{
+                position: relative;
+                left: -100%;
+                animation: anim3 2s forwards 3s;
+            }
+            #text span{
+                font-size:28px;
+                text-align: center;
+                font-family:'Times New Roman', Times, serif;
+            }
+            @keyframes anim3{
+                from{
+                    left:-100%;
+                }
+                to{
+                    left: 0%;
+                }
+            }
+            #box3{
+                overflow: hidden;
+               
+            }
+            #conatiner
+            {
+                width:100%;
+                position: absolute;
+                top: -100%;
+                animation: anim4 2s forwards 2.5s;
+                color: white;
+            }
+            #logo
+            {
+                float: left;
+                margin-left: 100px;
+                margin-top: 20px;
+            }
+            #logo img{
+                width: 220px;
+
+            }
+            #menu{
+                font-size: 14px;
+                color:antiquewhite;
+                letter-spacing: 2px;
+                margin-right: 188px;
+                margin-top: 20px;
+                float: right;
+            
+        
+            }
+            #menu ul li a
+            {
+                color:antiquewhite;;
+            }
+            menu ul{
+                list-style:none;
+
+            }
+            #menu ul li
+            {
+                display: inline-block;
+                margin-left: 100px;
+            }
+            @keyframes anim4 {
+                from{
+                    top:100%;
+                }
+                to {
+                    top:0%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="box1"></div>
+
+        <div id="box2">
+            <div id="text">
+                MERAKI <br>CLOTHING <br><span>COMING SOON . . .</span> 
+                
+            </div>
+            </div>
+            <div id ="box3">
+                <div id="container">
+                    <div id ="logo">
+                        <img src="image/banner.png">
+
+                </div>
+                <div id ="menu">
+                    <ul>
+                        <li><a href ="home.html">HOME</a></li>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="event.html">MAKE EVENT</a></li>
+                        <li><a href ="about.html">ABOUT US </a></li>
+                        <li><a href ="contact.html">CONTCT US </a></li>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
