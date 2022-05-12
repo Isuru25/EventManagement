@@ -1,0 +1,85 @@
+body {
+    font-family: 'New Tegomin', serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header .carousel-inner .item {
+    height: 100vh;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 40px;
+    padding: 35px 10px;
+    font-weight: 900;
+}
+
+.nav.navbar-nav.navbar-right {
+    margin: 25px 0;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carousel-caption {
+    padding-bottom: 250px;
+    font-family: poppins;
+}
+
+.carousel-caption h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-caption h2 span {
+    color: #cea307;
+}
+
+.carousel-caption a {
+    background: #edbb00;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.navbar.navbar-default {
+    background-color: rgba(22, 21, 21, 0.582);
+    border-color: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #edbb00;
+    border-color: #edbb00;
+    ;
+}
