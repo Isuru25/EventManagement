@@ -52,11 +52,11 @@ header .carousel-inner .item {
 }
 
 .carousel-caption h2 span {
-    color: #cea307;
+    color: #cea307e3;
 }
 
 .carousel-caption a {
-    background: #edbb00;
+    background: #edba00ae;
     padding: 15px 35px;
     display: inline-block;
     margin-top: 15px;
